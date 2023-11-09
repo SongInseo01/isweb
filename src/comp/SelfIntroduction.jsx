@@ -1,11 +1,11 @@
 import React from 'react';
-import './SelfIntroduction.css'; 
+import './SelfIntroduction.css';
 
 function SelfIntroduction() {
   return (
     <div className="self-introduction-container">
       <div className="profile-picture">
-        <img src="/20201201_unityinseo.png" alt="Profile" />
+        <img src="https://SongInseo01.github.io/isweb/20201201_unityinseo.png" alt="Profile" />
       </div>
       <div className="introduction-text">
         <h1>이름: 송인서</h1>
