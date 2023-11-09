@@ -1,0 +1,64 @@
+.retro-container {
+    background-color: #333;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  p {
+    font-size: 24px;
+    color: #000000;
+  }
+.green-text {
+    color: #00ff00;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #00ff00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .buttons a:hover {
+    color: #ffcc00;
+  }
+
+  .input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-box {
+    background-color: #333;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .input-box input {
+    background-color: #333;
+    color: #00ff00;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .input-box input::placeholder {
+    color: #00ff00;
+    opacity: 0.7;
+  }
